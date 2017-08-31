@@ -109,10 +109,15 @@
 											<%= image_tag product.image.url(:medium) %>
 										</figure>
 										<div class="content">
+											<span class="name"> 
+										    
 											<h2> <%= product.name %></h2>
-											<span class="price"> 
-												<i class="fa fa-inr"></i>
-												<%= product.tech %>
+											</span>
+											<span class="name">
+												<%= product.tech %><br>
+												
+												</span>
+												<span class="name">
 												<%= product.quantity %>
 											</span>
 										</div>

@@ -18,14 +18,13 @@
 											<%= image_tag product.image.url(:medium) %>
 										</figure>
 										<div class="content">
-											<h2> <i class="fa fa-product-hunt"></i><%= product.name %> </h2>
-											<h2>
-												<i class="fa fa fa-plus-square-o"></i>
-												<%= product.tech %>
-											</h2>
-
-											<span class="quantity"> 
-												<i class="fa fa material-icons"></i>
+											<h2> <%= product.name %></h2>
+											</span>
+											<span class="name">
+												<%= product.tech %><br>
+												
+												</span>
+												<span class="name">
 												<%= product.quantity %>
 											</span>
 										</div>
